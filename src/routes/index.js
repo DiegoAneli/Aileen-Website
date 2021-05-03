@@ -1,13 +1,21 @@
-const {Router} = require('express'); // dal modulo express richiedo in importare solo la metodo ROUTER
-const router = Router();
+const express = require('express'); 
+const router = express.Router(); // dal modulo express richiedo in importare solo la metodo ROUTER
 const pathSRC =__dirname.replace('routes','');
-const path =require('path');
 
 router.get('/',(req,res)=>{
-    console.log(pathSRC +' : ******');
+    //console.log(pathSRC +' : ******');
 
     //res.json({"Title":'Ciao Mondo!! \nQuesto è il server di Paolo.'});
-    res.sendFile(path.join(pathSRC,'views/index.html'));
+    //res.sendFile(path.join(pathSRC,'views/index.html'));
+    res.render(pathSRC+'views/index.html');
+});
+
+router.get('/prima.html',(req,res)=>{
+    //console.log(pathSRC +' : ******');
+
+    //res.json({"Title":'Ciao Mondo!! \nQuesto è il server di Paolo.'});
+    //res.sendFile(path.join(pathSRC,'views/index.html'));
+    res.render(pathSRC+'views/prima.html');
 });
 
 module.exports=router;
