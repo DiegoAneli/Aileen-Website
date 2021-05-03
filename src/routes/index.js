@@ -7,7 +7,7 @@ router.get('/',(req,res)=>{
     //console.log(pathPrecc +' : ******');
 
     //res.json({"Title":'Ciao Mondo!! \nQuesto è il server di Paolo.'});
-    res.sendFile(path.join(pathPrecc,'src/views/index.html'));
+    res.sendFile(path.join(pathPrecc,'views/index.html'));
 });
 
 module.exports=router;

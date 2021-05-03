@@ -11,10 +11,10 @@ app.use(express.urlencoded({extended:false})); // permette di capire il formato 
 app.use(express.json()); //permette al sever di capire le richieste in formato json qunado arrivano
 
 //routes 
-app.use(require("./routes/index")); //importa il modulo index che si trova in routes
-app.use("/api/persone",require("./routes/persone"));
+app.use(require("./src/routes/index")); //importa il modulo index che si trova in routes
+app.use("/api/persone",require("./src/routes/persone"));
 
-
+//static files
 
 //init del server
 app.listen(app.get('port'), ()=>{

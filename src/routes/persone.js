@@ -4,7 +4,7 @@
 const {Router} = require('express'); //da express richiedo il suo metodo Routes (NOTE PER YOMEL: credo sia il modo di importare con js)
 const router = Router(); //creo la variabile routes
 
-const persone = require("../DB.json"); //importo il file DB (database finto)
+const persone = require("../../DB.json"); //importo il file DB (database finto)
 //console.log(persone);
 
 
