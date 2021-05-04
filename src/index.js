@@ -6,6 +6,7 @@ const path=require('path');
 //setteggio 
 app.set('port',3000); //(chiave,valore) assegno alla chiava port il valore 3000 (ossia sto indicando che voglio che la app ascolti nella porta 3000)
 app.set('views',path.join(__dirname,"views"));
+app.set('partials',path.join(__dirname,"views/partials"));
 app.engine('html',require('ejs').renderFile);//Indico di processare i file html come se avessero estensione EJS
 app.set('view engine','ejs'); //
 
@@ -23,5 +24,5 @@ app.use("/api/persone",require("./routes/persone"));
 //init del server
 app.listen(app.get('port'), ()=>{
     console.log("Server in ascolto sulla porta "+ app.get('port'));
-    console.log("Il path è: "+app.get('views'));
+    //console.log("Il path è: "+app.get('views'));
 }); //

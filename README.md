@@ -6,3 +6,8 @@ NOTA:
     - express :   
     - morgan :  
     - ejs : permette di estendere le capacità dei file html e scrivere codice js 
+    - bootstrap-icons : permette di utilizzare le icone di BootStrap
+
+
+---Stile---
+    - https://getbootstrap.com : ho usato il CSS di Bootstrap 5
