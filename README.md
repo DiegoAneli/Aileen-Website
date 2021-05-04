@@ -10,7 +10,7 @@ NOTA:
     - animate.css : modulo per l'animazione del css
     
 COMANDI
-    - npm i express morgan ejs bootstrap-incons : insltalla tutte le dipendenze
+    - npm i express morgan ejs bootstrap-icons animate.css laravel-mix : insltalla tutte le dipendenze
     - npm i nodemon -D : serve per poter seguire in modalita' dev
 
 Esecuzione del SEVER
