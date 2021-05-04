@@ -7,6 +7,6 @@ background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, F
 }
 
 .body-container{
-    width: max-content;
-    height: 1000px;
+    width: auto;
+    height: auto;
 }
