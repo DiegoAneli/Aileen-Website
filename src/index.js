@@ -20,6 +20,7 @@ app.use(require("./routes/index")); //importa il modulo index che si trova in ro
 app.use("/api/persone",require("./routes/persone"));
 
 //static files
+app.use(express.static(path.join(__dirname,"public")))
 
 //init del server
 app.listen(app.get('port'), ()=>{
