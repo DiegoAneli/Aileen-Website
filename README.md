@@ -21,5 +21,3 @@ Esecuzione del SEVER
     - https://getbootstrap.com : ho usato il CSS di Bootstrap 5
     - https://uigradients.com/ : per i gradienti
     - https://animate.style/ : tutte le animazioni
-
-    ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
