@@ -1,14 +1,14 @@
 {
   "name": "server2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Prova di un Sito Web",
   "main": "src/index.js",
   "scripts": {
     "start": "node src",
     "dev": "nodemon src"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["nodejs",""],
+  "author": "Yomel rivera",
   "license": "ISC",
   "dependencies": {
     "animate.css": "^4.1.1",

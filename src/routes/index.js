@@ -14,6 +14,8 @@ router.get('/chi-sono.html',(req,res)=>{
     res.render(pathSRC+'views/chi-sono.html',{title:"Chi sono?"});
 });
 
+
+
 router.get('/cosa-faccio.html',(req,res)=>{
     res.render(pathSRC+'views/cosa-faccio.html',{title:"Cosa faccio"});
 });
