@@ -11,7 +11,7 @@ router.get('/',(req,res)=>{
 });
 
 router.get('/servizi.html',(req,res)=>{
-    res.render(pathSRC+'views/cosa-offro.html',{title:"Servizi"});
+    res.render(pathSRC+'views/servizi.html',{title:"Servizi"});
 });
 
 
@@ -19,8 +19,8 @@ router.get('/certificazioni.html',(req,res)=>{
     res.render(pathSRC+'views/certificazioni.html',{title:"Certificazioni"});
 });
 
-router.get('/contattami.html',(req,res)=>{
-    res.render(pathSRC+'views/contattami.html',{title:"Contatti"});
+router.get('/contatti.html',(req,res)=>{
+    res.render(pathSRC+'views/contatti.html',{title:"Contatti"});
 });
 
 module.exports=router;
