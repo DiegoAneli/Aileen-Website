@@ -3,6 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,600,400,800" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
@@ -11,16 +15,44 @@
     <%- include("partials/head.html") %>
 </head>
 
-<body style="background-color: antiquewhite;">
+<body>
     <%- include("partials/navigation.html") %>
         <div class="body-container">
-            <h1 class="animate__animated animate__heartBeat">
-                <%= title %>
-            </h1>
-
+            <div class="name">Hello ! <div class="name_color">...I'm Aileen :)</div></div>
+            <div class="foto_part_a">
+                <div class="fp_cont">
+                  <div class="fp_left">
+                    <h1>Insegnamento</h1>
+                    <p>Sono una traduttrice e insegnante di inglese madrelingua e certificata (TEFL).
+                        Ho iniziato la mia carriera in una scuola privata di Inglese nel 2015.
+                        Dal 2019 lavoro in proprio, sviluppando corsi di lingua per studenti individuali e gruppi di tutti i livelli.
+                        Creo piani di studio personalizzati che rispondono a diverse esigenze di apprendimento, tra cui: business
+                        English, preparazione certificazioni linguistiche (IELTS; TOEFL; CAE, ecc), inglese accademico, preparazione
+                        di colloqui di lavoro in lingua, miglioramento dell’inglese parlato e della pronuncia, comprensione orale.
+                        Il mio lavoro mi appassiona, e sono sempre alla ricerca di nuove soluzioni per aiutare i miei studenti ad
+                        apprendere nel modo più efficace e divertente possibile.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="foto_part_b">
+                <div class="fp_cont">
+                  <div class="fp_left">
+                    <h1>Traduzioni, Revisioni e Voice Over</h1>
+                    <p>Dal 2015 lavoro come traduttrice (ITA&gt;ENG - ENG&gt;ITA). Offro i miei servizi ad agenzie di traduzione,
+                        aziende e clienti privati.
+                        Effettuo traduzioni e revisioni in diversi ambiti, con una particolare enfasi su testi di carattere umanistico.
+                        Ho avuto l’occasione di collaborare con musei, università, case editrici, artisti e aziende in vari ambiti.
+                        Provengo da un contesto bilingue e biculturale (italo-americano): questo aspetto, unito ai miei studi nel
+                        campo delle letterature e culture comparate, mi ha permesso di sviluppare una consapevolezza
+                        approfondita dei dettagli più sottili di entrambe le lingue (e culture) di riferimento.
+                        A partire dal 2018 ho avuto l’opportunità di collaborare in alcuni progetti video nel ruolo di voice actor in
+                        lingua inglese. Offro questo servizio sia per aziende che per clienti privati e dispongo delle attrezzature
+                        necessarie per realizzare le tracce audio.</p>
+                  </div>
+                </div>
+            </div>                            
         </div>
-
-        <%- include("partials/footer.html") %>
+    <%- include("partials/footer.html") %>
 </body>
 
 </html>

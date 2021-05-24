@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,600,400,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include("partials/head.html") %>
+</head>
+
+
+<body>
+     <%- include("partials/navigation.html") %>
+    <div class="body-container">
+        <div class="foto_part_a">
+            <div class="fp_cont">
+              <div class="fp_left">
+                <h1>Contatti</h1><br>
+                <h5>Aileen Agnese Valca</h5>
+                <h5>Via Sidoli 18</h5>
+                <h5>43123 PARMA</h5>
+                <h5>Mail : aileenvalca@gmail.com</h5>
+                <h5> Telefono : +39 3488913414</h5>
+                <h5>Cod. Fisc. :  VLCLGN88R61F463D </h5>
+                <h5>P. IVA 02928870340 </h5><br>
+                <h5> <i>Professione esercitata ai sensi della legge 4/2013</i> </h5>
+              </div>
+            </div>
+        </div>
+        <div class="foto_part_b">
+            <div class="fp_cont">
+              <div class="fp_right">
+                <h1>Contattami-Form</h1>
+                <%- include("partials/contattaci-form.html") %>
+              </div>
+            </div>
+        </div>
+
+    </div>
+     
+    <%- include("partials/footer.html") %> 
+</body>
+
+</html>

@@ -10,26 +10,17 @@ router.get('/',(req,res)=>{
     res.render(pathSRC+'views/index.html',{title:"HOME"});
 });
 
-router.get('/chi-sono.html',(req,res)=>{
-    res.render(pathSRC+'views/chi-sono.html',{title:"Chi sono?"});
+router.get('/servizi.html',(req,res)=>{
+    res.render(pathSRC+'views/cosa-offro.html',{title:"Servizi"});
 });
 
 
-
-router.get('/cosa-faccio.html',(req,res)=>{
-    res.render(pathSRC+'views/cosa-faccio.html',{title:"Cosa faccio"});
+router.get('/certificazioni.html',(req,res)=>{
+    res.render(pathSRC+'views/certificazioni.html',{title:"Certificazioni"});
 });
 
-router.get('/collaboratori.html',(req,res)=>{
-    res.render(pathSRC+'views/collaboratori.html',{title:"Collaboratori"});
-});
-
-router.get('/informazioni-e-contatti.html',(req,res)=>{
-    res.render(pathSRC+'views/informazioni-e-contatti.html',{title:"Informazioni e contatti"});
-});
-
-router.get('/prove.html',(req,res)=>{
-    res.render(pathSRC+'views/prove.html',{title:"Prove"});
+router.get('/contattami.html',(req,res)=>{
+    res.render(pathSRC+'views/contattami.html',{title:"Contatti"});
 });
 
 module.exports=router;
