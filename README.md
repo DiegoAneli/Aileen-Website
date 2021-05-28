@@ -1,6 +1,3 @@
-
-Installazione componenti per la creazione del sito web :
-
 Per il progetto è necessario installare i moduli:
 
     - Express : permette di scrivera codice per il server in maniera semplice
