@@ -5,7 +5,7 @@ Per il progetto è necessario installare i moduli:
     - Ejs : permette di estendere le capacità dei file html e scrivere codice js 
     - Animate.css : modulo per l'animazione del css
     
-Comandi : 
+Building : 
 
     - npm i  
 
